@@ -1,0 +1,8 @@
+digraph "Convolution Structure" {
+	A [label=ConvolutionBase_in_out]
+	B [label=ConvolutionDeep_in_out]
+	C [label=AttentionNetwork]
+	A -> B [label=inherits]
+	C -> A [label=uses]
+	C -> B [label=uses]
+}
